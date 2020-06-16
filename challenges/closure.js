@@ -26,8 +26,8 @@ myFunction();
 
 function summation(num) {
   let counter = 0;
-  for (let i = 0; i < num; i++) {
-    counter += 1
+  for (let i = 0; i <= num; i++) {
+    counter += i
   };
   return counter
 }
